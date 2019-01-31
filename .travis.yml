@@ -25,3 +25,6 @@ deploy:
     skip_cleanup: true
     on:
       branch: master
+
+after_success:
+- curl -X POST -H "Authorization: Bearer $NETLIFY_AUTH_TOKEN" -d "{}" "https://api.netlify.com/api/v1/deploys/${temp##*|}/lock"

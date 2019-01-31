@@ -15,6 +15,9 @@ Here's how I deployed this bad boy:
 1. copied netlify site `API ID`, and pasted back into my `.travis.yml` as env `NETLIFY_SITE_ID`
 
 --> push to GitHub, this should deploy to Netlify
+  + Check- this happened!
 
 --> then I will make a small change and push to GitHub again and the site should GO DOWN while Travis builds the book.
+  + Check- this happened!
 
+--> The future is now! Now I will trigger a new build, make the site go down again, BUT add a secret line with `after_success` to lock deploys **after** this build.

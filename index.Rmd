@@ -14,6 +14,10 @@ description: "This is a minimal example of using the bookdown package to write a
 
 Now for my magic trick- the site will go down while Travis builds the book again because Netlify is auto-deploying from master branch.
 
+So the site went down as expected.
+
+Now let's make it go down again.
+
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
 
 The **bookdown** package can be installed from CRAN or Github:

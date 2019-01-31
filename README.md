@@ -24,4 +24,8 @@ Here's how I deployed this bad boy:
   + Check- site went down (again)
   
 --> Now for the real test- I will trigger another new build- will the site go down???
+ nope it went down again ;(
 
+--> In netlify ui, I stopped auto publishing (https://www.laroberto.com/publishing-in-netlify-via-travisci/)
+
+--> don't really think any of this is working now

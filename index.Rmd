@@ -18,6 +18,8 @@ So the site went down as expected.
 
 Now let's make it go down again.
 
+OK if I have correctly locked down the deploy, the site should not go down again when I make this change. Let's see...
+
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
 
 The **bookdown** package can be installed from CRAN or Github:

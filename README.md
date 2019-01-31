@@ -21,3 +21,7 @@ Here's how I deployed this bad boy:
   + Check- this happened!
 
 --> The future is now! Now I will trigger a new build, make the site go down again, BUT add a secret line with `after_success` to lock deploys **after** this build.
+  + Check- site went down (again)
+  
+--> Now for the real test- I will trigger another new build- will the site go down???
+

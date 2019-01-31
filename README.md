@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/apreshill/badbook.svg?branch=master)](https://travis-ci.com/apreshill/badbook) [![Netlify Status](https://api.netlify.com/api/v1/badges/2c55589d-0bcd-4f22-b4b7-9580f622f317/deploy-status)](https://app.netlify.com/sites/suspicious-saha-9e4bcc/deploys)
+
 This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "Get Started" at https://bookdown.org/ for how to compile this example.
 
 Here's how I deployed this bad boy:

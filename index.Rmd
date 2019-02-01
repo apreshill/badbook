@@ -26,6 +26,8 @@ ok nothing works trying incoming build hooks instead
 
 gonna delete this
 
+last try
+
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
 
 The **bookdown** package can be installed from CRAN or Github:

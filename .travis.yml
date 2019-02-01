@@ -21,7 +21,14 @@ script:
 
 deploy:
   - provider: script
-    script: curl -X POST -d {} https://api.netlify.com/build_hooks/5c5378bb5d6522836ed3d31atrigger_branch=master&trigger_title=triggered+by+This+Awesome+Service
+    script: netlify deploy --dir _book --prod --message "$DEPLOY_MSG"    
     skip_cleanup: true
     on:
       branch: master
+
+notifications:
+  webhooks:
+    urls:
+      secure: https://api.netlify.com/build_hooks/5c5378bb5d6522836ed3d31atrigger_branch=master&trigger_title=triggered+by+This+Awesome+Service
+    on_success: always
+    on_failure: never
